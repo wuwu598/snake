@@ -1,0 +1,9 @@
+﻿贪吃蛇.obj : error LNK2005: "void __cdecl changeDrection(enum direction *)" (?changeDrection@@YAXPEAW4direction@@@Z) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: "struct node __cdecl createFood(struct node *,int)" (?createFood@@YA?AUnode@@PEAU1@H@Z) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: "bool __cdecl isGameOver(struct node *,int)" (?isGameOver@@YA_NPEAUnode@@H@Z) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: "void __cdecl paintFood(struct node)" (?paintFood@@YAXUnode@@@Z) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: "void __cdecl paintGrid(void)" (?paintGrid@@YAXXZ) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: "void __cdecl paintSnake(struct node *,int)" (?paintSnake@@YAXPEAUnode@@H@Z) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: "struct node __cdecl snakeMove(struct node *,int,int)" (?snakeMove@@YA?AUnode@@PEAU1@HH@Z) 已经在 源.obj 中定义
+贪吃蛇.obj : error LNK2005: main 已经在 源.obj 中定义
+C:\Users\86156\Desktop\C语言\贪吃蛇\贪吃蛇\x64\Debug\贪吃蛇.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
