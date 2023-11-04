@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇游戏</title>
+    <style>
+        .map {
+            width: 800px;
+            height: 600px;
+            background-color: #CCC;
+            position: relative; /* 相对定位，让内部的元素可以使用绝对定位 */
+        }
+    </style>
+</head>
+<body>
+<div class="map"></div> <!-- 游戏画布 -->
+<script src="food.js"></script> <!-- 食物类 -->
+<script src="Snake.js"></script> <!-- 贪吃蛇类 -->
+<script src="Game.js"></script> <!-- 游戏类 -->
+<script>
+    // 创建游戏实例，并传入游戏画布的引用
+    var gm = new Game(document.querySelector(".map"));
+
+    // 初始化游戏
+    gm.init();
+</script>
+</body>
+</html>
